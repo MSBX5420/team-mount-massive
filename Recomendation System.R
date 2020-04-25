@@ -14,6 +14,8 @@ movies <- read.csv('movie_data.csv')
 #options for type:
 unique(movies$titleType)
 
+#Age can be 'Old' or 'New'
+
 recommend <- function(genre, type, age) { 
   PossMovie <- movies[movies$genres %like% genre,]
   PossMovie <- PossMovie[PossMovie$titleType == type,]
@@ -27,7 +29,7 @@ recommend <- function(genre, type, age) {
   PossMovie$WeightedRating <- NA
   for (i in 1:dim(PossMovie)[1]){
     v = PossMovie$numVotes[i]
-    m = quantile(PossMovie$averageRating, prob = .95)
+    m = quantile(PossMovie$averageRating, prob = .10)
     C = mean(PossMovie$averageRating)
     R = PossMovie$averageRating[i]
     PossMovie$WeightedRating[i] <- (v/(v+m) * R) + (m/(m+v) * C)
