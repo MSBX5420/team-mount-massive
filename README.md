@@ -10,8 +10,9 @@ Alex Qaddourah, Marissa Fink, Vishal Narayanan, Abbie Amiotte, Neha Thakar
 ### Dataset
 my_output_csv contains the entire dataset filtered for those with over 250 votes and no blank rows. 
 
-<!--- ### Analysis  -->
+### Analysis
 Initial data cleaning was followed by extracting Genre statistics because every movie fell into one or more than one Genre. After extracting that, it was imperative to find a relation between the average rating and number of votes. 
+
 
 ### Machine Learning to predict successful movies for reccomendation
 In order to predict a successful movie, we can implement machine learning algorithms that classify a movie as successful or not. After loading in the data, we can create a new binary (1/0) column that identifies a movie as a success based on the average rating being greater than 6.5. The predictor variables are genre, Title Type, Movie Run Time, Year, Adult film (Yes/no), and number of votes. These variables are transformed into a vector of features, and then fed into a model that predicts the outcome variable. The models provide us with probability scores for each observation, giving insight into the features that play an important part in determining a movie's success.
