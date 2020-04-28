@@ -25,6 +25,8 @@ The second recommendation system was built in PySpark using a UDF and spark.sql 
 In the weighed rating function, m was given an arbitrary 100 value (which effectively included every movie since the data had been cleaned to remove movies with less than 250 votes).
 This system requires more data input from the user in the form of a SQL query, but still produces the desired results.
 
+Both systems could be easily built out further to include other requirements from a user, or combined with a UI for simpler use. 
+
 <!--- ### More Sections -->
 
 <!--- ### More Sections -->
