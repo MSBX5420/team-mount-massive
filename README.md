@@ -8,6 +8,7 @@ toolkit, against a large scale dataset.
 Alex Qaddourah, Marissa Fink, Vishal Narayanan, Abbie Amiotte, Neha Thakar
 
 ### Dataset
+my_output_csv contains the entire dataset filtered for those with over 250 votes and no blank rows. 
 
 ### Design Document
 https://www.lucidchart.com/publicSegments/view/26803019-e87d-47f8-a2c7-ca28b518e84c
