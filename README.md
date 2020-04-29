@@ -43,7 +43,7 @@ In order to predict a successful movie, we can implement machine learning algori
 The models that are included in our analysis is Logistic Regression & Random Forest, as they are classifers that can yield better predictive power. By classifying a movie's success, we can use the metrics as a potential evaulator for the number & type of films that we would like to reccommend for a given user. 
 
 The classifier algorithms can be found here: 
-https://github.com/MSBX5420/team-mount-massive/blob/master/Predicting%20a%20movie's%20success-Logistic%20%26%20Random%20Forest%20Classifier.ipynb
+https://github.com/MSBX5420/team-mount-massive/blob/master/Predicting%20a%20movie's%20success%20-%20Logistic%20%26%20Random%20Forest%20Classifier%20(Full%20Dataset).ipynb
 
 ### Design Document
 https://www.lucidchart.com/publicSegments/view/26803019-e87d-47f8-a2c7-ca28b518e84c
