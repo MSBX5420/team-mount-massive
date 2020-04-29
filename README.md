@@ -2,7 +2,7 @@
 
 ### Objective
 This project's goal is to work with big data in an AWS environment and further our Machine Learning and Predictive Modeling
-toolkit, against a large scale dataset. 
+toolkit, against a large scale dataset.
 
 ### Collaborators
 Alex Qaddourah, Marissa Fink, Vishal Narayanan, Abbie Amiotte, Neha Thakar
@@ -41,8 +41,9 @@ This system requires more data input from the user in the form of a SQL query, b
 
 Both systems could be easily built out further to include other requirements from a user, or combined with a UI for simpler use. 
 
+### Deployment 
+For future use, we would want to serialize our models and use a Flask API to feed the model into. The API lets us generate a fully functional web app that the user can input Genre, Age of the Film, and any other predictors used in the model. The app will generate 5 of the top recommended movies for the user and display them! Furthermore, we could use Flask and also use Heroku to get a permanent URL for the API. 
 
 
-<!--- ### More Sections -->
-
-<!--- ### More Sections -->
+### Final Conclusions
+To conclude, our team used a variation of machine learning and descriptive statistics to gather several key ideas. First, our highest predictor was the number of votes given to a movie. This makes sense, the most popular movies of our time are ones that have been seen many times, thus given the highest number of votes. Second, our most popular genre was Drama films. For a more improved model we would like to look at if adding actors/actresses or directors as predictors would add depth to our model. This aspect of our model would help to make our model more robust. We can recommend movies simply based on an actor or actress, instead of just the genre or other surface level factors. 
